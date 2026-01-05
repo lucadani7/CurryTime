@@ -1,0 +1,35 @@
+# Stack and Cabal artifacts
+.stack-work/
+dist/
+dist-newstyle/
+*.cabal
+
+# GHC intermediate files
+*.o
+*.hi
+*.hie
+*.chi
+*.chs
+*.hp
+*.dyn_o
+*.dyn_hi
+
+# Executables (if you build them manually outside stack)
+CurryTime
+CurryTime.exe
+
+# Emacs temporary files
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log

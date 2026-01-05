@@ -1,0 +1,17 @@
+name:                CurryTime
+version:             0.1.0.0
+license:             Apache-2.0
+author:              "Luca Daniel Ionescu"
+
+dependencies:
+- base >= 4.7 && < 5
+- time
+
+executables:
+  CurryTime:
+    main:                Main.hs
+    source-dirs:         src
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
