@@ -1,4 +1,5 @@
 # CurryTime
+![CurryTime Demo](demo.png)
 A minimalist, high-precision CLI calendar written in Haskell. Unlike standard system calendars, **CurryTime** uses the Proleptic Gregorian calendar, allowing you to explore dates far into the past (like 1867) or the distant future with mathematical certainty.
 
 ---
